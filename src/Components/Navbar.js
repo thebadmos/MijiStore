@@ -16,9 +16,9 @@ function Navbar() {
     window.addEventListener('scroll', changeBackground);
     return (
             <nav className={ nav ? 'nav active' : 'nav'}>
-           <a href="#" className="logo">
+           <Link to ="#" className="logo">
                <h4>MijiStore</h4>
-                     </a>
+                     </Link>
            <input type= "checkbox" className="menu-btn" id="menu-btn"/>
            <label className="menu-icon" htmlFor="menu-btn">
                <span className="nav-icon"></span>
